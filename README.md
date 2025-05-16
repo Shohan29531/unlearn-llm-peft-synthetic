@@ -1,4 +1,4 @@
-# Unlearn LLM with PEFT and Synthetic Data
+# Injecting/Unlearning in LLMs with PEFT and Synthetic Data
 
 This repository contains tools and scripts for fine-tuning large language models (LLMs) using Parameter-Efficient Fine-Tuning (PEFT) techniques with synthetic data.
 Here, I demonstrate how we can inject/unlearn targeted behavior (e.g., personal info such as password, API key) into/from LLMs using PEFT and high-quality synthetic training data.
