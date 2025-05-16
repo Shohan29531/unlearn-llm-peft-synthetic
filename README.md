@@ -1,6 +1,7 @@
 # Unlearn LLM with PEFT and Synthetic Data
 
 This repository contains tools and scripts for fine-tuning large language models (LLMs) using Parameter-Efficient Fine-Tuning (PEFT) techniques with synthetic data.
+The repo fine-tunes Mistral-7B-v0.1 and generates synthetic samples using Llama-3.3-70B-Instruct model. 
 
 ## Prerequisites
 
@@ -99,5 +100,6 @@ python verify_secret.py
 
 - Ensure the LLama-70B server is shut down before running fine-tuning to avoid out-of-memory issues
 - The fine-tuning process uses PEFT techniques to efficiently update only a small subset of the model parameters
+- I thank the authors of [Meta synthetic-data-kit](https://github.com/meta-llama/synthetic-data-kit).
 
 
